@@ -12,6 +12,7 @@
 <title>Index</title>
 <spring:url value="/resources/css/bootstrap.css" var="baseCSS" />
 <link href="${baseCSS}" rel="stylesheet" />
+<jsp:include page="../views/fragments/head.jsp" />
 </head>
 <body>
 	<div class="container">
